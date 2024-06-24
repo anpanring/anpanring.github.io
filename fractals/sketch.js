@@ -1,11 +1,11 @@
 function setup() {
     // createCanvas(windowWidth, 200); // (0, 0) starts at top left
-    createCanvas(windowWidth/2, windowHeight/2);
+    createCanvas(windowWidth, windowHeight);
     // noStroke();
     // noLoop();
     
     slider = createSlider(0, 6, 1, 1);
-    slider.position(10, 70);
+    slider.position(10, 30);
     slider.size(80);
 }
 
